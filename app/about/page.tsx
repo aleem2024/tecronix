@@ -11,7 +11,7 @@ export default function AboutPage() {
       {/* HERO */}
       <section className='bg-slate-900 text-white'>
         <div className='container py-16'>
-          <h1 className='max-w-4xl'>About tecronix USA</h1>
+          <h1 className='max-w-4xl'>About Tecronix</h1>
           <p className='mt-4 max-w-3xl text-white/80'>
             We help employers hire faster and operate better — with staffing, outcome-based outsourcing, and executive search. 
             Our promise: clarity, speed, and measurable results.
