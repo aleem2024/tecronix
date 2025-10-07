@@ -142,7 +142,7 @@ export default function TestimonialsPage() {
         <div className="container py-12 grid md:grid-cols-4 gap-6 text-center">
           {metrics.map((m) => (
             <div key={m.label} className="space-y-1">
-              <div className="text-4xl font-bold text-indigo-600">{m.value}</div>
+              <div className="text-4xl font-bold text-cyan-500">{m.value}</div>
               <div className="text-xs font-medium tracking-widest text-slate-600 uppercase">
                 {m.label}
               </div>
