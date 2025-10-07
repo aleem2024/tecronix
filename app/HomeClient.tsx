@@ -282,6 +282,94 @@ export default function HomeClient() {
         </div>
       </section>
 
+{/* JOBS PREVIEW */}
+<section className="container py-12">
+  <div className="flex items-end justify-between">
+    <div>
+      <h2>Latest Jobs</h2>
+      <p className="text-slate-700 mt-1">
+        Highlighted roles from our U.S. clients.
+      </p>
+    </div>
+    <a href="/jobs" className="btn-outline">
+      Browse All Jobs
+    </a>
+  </div>
+
+  <div className="mt-6 grid md:grid-cols-3 gap-6">
+    {[
+      [
+        'Senior Backend Engineer',
+        'Austin, TX (Hybrid) · Technology',
+        '/jobs/senior-backend-engineer-austin-tx',
+      ],
+      [
+        'Revenue Cycle Specialist',
+        'Chicago, IL (On-site) · Healthcare',
+        '/jobs/revenue-cycle-specialist-chicago-il',
+      ],
+      [
+        'AP Specialist',
+        'Columbus, OH (Hybrid) · Finance',
+        '/jobs/ap-specialist-columbus-oh',
+      ],
+    ].map(([title, meta, href]) => (
+      <a
+        key={href as string}
+        href={href as string}
+        className="p-6 rounded-2xl border hover:shadow-sm transition block"
+      >
+        <div className="font-semibold">{title}</div>
+        <div className="text-slate-600 text-sm mt-1">{meta}</div>
+        <div className="text-sm text-slate-600 mt-3">View role →</div>
+      </a>
+    ))}
+  </div>
+</section>
+
+{/* INSIGHTS PREVIEW */}
+<section className="bg-slate-100">
+  <div className="container py-12 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2>Insights &amp; Salary Guides</h2>
+      <p className="text-slate-700 mt-1">
+        Playbooks, case studies, and market pay data to make better decisions.
+      </p>
+
+      <div className="mt-4 flex gap-3">
+        <a href="/blog" className="btn-primary">
+          Read Insights
+        </a>
+        <a href="/case-studies" className="btn-primary">
+          Case Studies
+        </a>
+        <a href="/salary-guides/2025-us-tech" className="btn-outline">
+          2025 Tech Salaries
+        </a>
+      </div>
+    </div>
+
+    <div className="grid sm:grid-cols-2 gap-3">
+      {[
+        ['2025 U.S. Tech Salary Guide', '/salary-guides/2025-us-tech'],
+        ['Structured Interviews that Scale', '/insights'],
+        ['Revenue Cycle: 30% Throughput', '/insights'],
+        ['Retail Peak Ramp: OTIF +8 pts', '/insights'],
+      ].map(([title, href]) => (
+        <a
+          key={href as string}
+          href={href as string}
+          className="p-4 rounded-2xl border bg-white hover:shadow-sm transition block"
+        >
+          <div className="text-sm font-semibold">{title}</div>
+          <div className="text-xs text-slate-600 mt-1">Read more →</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+      
       {/* CTA STRIP */}
       <section className="container py-12">
         <div className="p-6 rounded-2xl border flex flex-wrap items-center justify-between gap-4">
