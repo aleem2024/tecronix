@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // your existing settings
-};
-module.exports = nextConfig;
+  output: 'export',
+  distDir: 'out',
+  images: { unoptimized: true },
+  trailingSlash: true,
+}
 
+module.exports = nextConfig
