@@ -1,0 +1,4 @@
+Step,Defect Class,Sampling %,AQL,Acceptance Rule,Notes
+Intake,Missing required fields,5,1.0%,Reject lot if defects > AQL,—
+Validation,Wrong code selected,5,0.65%,Reject lot if defects > AQL,—
+Resolution,Incorrect disposition,5,0.65%,Reject lot if defects > AQL,—

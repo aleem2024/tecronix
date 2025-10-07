@@ -1,0 +1,7 @@
+Metric,Value,Notes
+Monthly Volume (units),10000,Your current monthly units processed
+Current Cost per Unit,4.50,All-in internal/outsourced cost
+Target Cost per Unit,3.60,After improvements/pilot
+Current Defect Rate (%),2.5,Baseline critical defects
+Target Defect Rate (%),1.2,Post-pilot target
+One-Time Pilot Cost,25000,Setup + transition cost

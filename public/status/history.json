@@ -1,0 +1,30 @@
+﻿{
+  "lastUpdated": "2025-09-03T17:12:39.5124088-04:00",
+  "current": {
+    "overall": "Operational",
+    "components": [
+      { "name": "Public Website", "status": "Operational" },
+      { "name": "Careers Portal", "status": "Operational" },
+      { "name": "Client Portal", "status": "Maintenance" }
+    ]
+  },
+  "incidents": [
+    {
+      "id": "inc-2025-08-14-a",
+      "title": "Degraded performance on Client Portal",
+      "severity": "SEV-2",
+      "started": "2025-08-14T14:10:00Z",
+      "resolved": "2025-08-14T16:25:00Z",
+      "updates": [
+        { "at": "2025-08-14T14:25:00Z", "note": "Identified elevated DB latency; rolling restart." },
+        { "at": "2025-08-14T15:10:00Z", "note": "Mitigation in progress; latency trending down." },
+        { "at": "2025-08-14T16:25:00Z", "note": "Resolved. Root cause: connection pool misconfig. Added guardrails." }
+      ]
+    }
+  ],
+  "uptime": [
+    { "component": "Public Website", "last30d": 99.98, "last90d": 99.97 },
+    { "component": "Careers Portal", "last30d": 99.95, "last90d": 99.93 },
+    { "component": "Client Portal", "last30d": 99.90, "last90d": 99.92 }
+  ]
+}

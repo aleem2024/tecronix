@@ -1,0 +1,5 @@
+Name,Service/Role,Region,Data Types (if any),Notes
+Acme Cloud,Infrastructure Hosting,USA,Operational metadata,"Primary hosting for public web properties"
+PostHawk,Analytics (optional, consent-based),USA/EU,Usage metadata,"Disabled by default on this demo"
+MailForge,Email Delivery,USA,Notification metadata,"Digest/status emails and contact forms"
+SecureSFTP,SFTP File Transfer,USA,File names and metadata,"Keys rotated quarterly; checksum verification"

@@ -1,0 +1,6 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'>
+  <rect width='128' height='128' rx='16' fill='#0F172A'/>
+  <path d='M24 44h80v12H72v36H56V56H24z' fill='#22D3EE'/>
+  <path d='M96 92H82l-10-14 10-14h14l-10 14-10 14z' fill='#22D3EE'/>
+  <text x='18' y='112' font-family='Arial' font-size='16' fill='#A5B4FC'>TALENTX</text>
+</svg>

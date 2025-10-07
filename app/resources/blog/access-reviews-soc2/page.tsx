@@ -1,0 +1,2 @@
+﻿export const metadata = { title: ' $args[0].Value.ToUpper() ccess  $args[0].Value.ToUpper() eviews  $args[0].Value.ToUpper() oc2 | Blog | Tecronix', description: 'Sample placeholder post.' };
+export default function Page(){return(<main className="prose mx-auto max-w-3xl px-6 py-10"><p><a href="/resources/blog">← Back to Blog</a></p><h1> $args[0].Value.ToUpper() ccess  $args[0].Value.ToUpper() eviews  $args[0].Value.ToUpper() oc2</h1><p className="lead">Placeholder content. Replace with your authored post.</p></main>);}

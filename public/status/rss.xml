@@ -1,0 +1,16 @@
+﻿<?xml version=""1.0"" encoding=""UTF-8""?>
+<rss version=""2.0"">
+  <channel>
+    <title>Tecronix Status</title>
+    <link>/status</link>
+    <description>Service status and incident updates</description>
+    <lastBuildDate>Wed, 03 Sep 2025 17:12:39 GMT</lastBuildDate>
+    <item>
+      <title>2025-08-14 â€” Degraded performance on Client Portal (Resolved)</title>
+      <link>/status#inc-2025-08-14-a</link>
+      <pubDate>Thu, 14 Aug 2025 16:25:00 GMT</pubDate>
+      <description>Resolved. Root cause: connection pool misconfiguration.</description>
+      <guid>inc-2025-08-14-a</guid>
+    </item>
+  </channel>
+</rss>

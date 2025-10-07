@@ -1,0 +1,2 @@
+﻿export const metadata = { title: ' $args[0].Value.ToUpper() cm  $args[0].Value.ToUpper() utomation  $args[0].Value.ToUpper() lueprint | Whitepapers | Tecronix', description: 'Placeholder document page.' };
+export default function Page(){return(<main className="prose mx-auto max-w-3xl px-6 py-10"><p><a href="/resources/whitepapers">← Back to Whitepapers</a></p><h1> $args[0].Value.ToUpper() cm  $args[0].Value.ToUpper() utomation  $args[0].Value.ToUpper() lueprint</h1><p>Replace with summary and download links.</p></main>);}

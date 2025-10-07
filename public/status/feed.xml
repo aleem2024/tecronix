@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Tecronix Status</title>
+  <link>https://www.Tecronix-usa.com/status</link>
+  <description>Recent status incidents and updates</description>
+  <lastBuildDate>Thu, 04 Sep 2025 14:04:13 GMT</lastBuildDate>
+  <item>
+    <title>SEV-3: Email delivery delay (US-East)</title>
+    <link>https://www.Tecronix-usa.com/status</link>
+    <guid>ex-2025-08-10</guid>
+    <pubDate>Sun, 10 Aug 2025 14:20:00 GMT</pubDate>
+    <description>Resolved. Monitoring confirms normal delivery times.</description>
+  </item>
+</channel>
+</rss>
